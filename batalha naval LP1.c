@@ -36,7 +36,6 @@ for(j=0; j<C-1; j++){ //ler as matrizes
     }
 }
 
-
 ////////////////////////////////////////           EMBARCAÇÕES             ////////////////////////////////////////////////////////
 
 //submarino
@@ -44,9 +43,6 @@ for(j=0; j<C-1; j++){ //ler as matrizes
 
 sub.lin=rand()%15;
 sub.col=rand()%15;
-
-//printf("numero: %d \n", sub.lin);
-//printf("numero: %d \n", sub.col);
 
     m[sub.lin][sub.col]='S';
 
@@ -210,9 +206,7 @@ switch ( poa.pos ){
 
 ////////////////////////////////////////                TIROS               ////////////////////////////////////////////////////////
 
-
 for(k=0; k<20; k++){
-
 
 printf("digite as coordenadas da bomba: \n");
 printf("linha:");
