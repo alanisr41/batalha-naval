@@ -37,7 +37,7 @@ for(j=0; j<C-1; j++){ //ler as matrizes
 }
 
 
-////////////////////////////////////////           EMBARCAÇÕES             ////////////////////////////////////////////////////////
+////////////////////////////////////////           EMBARCAÃ‡Ã•ES             ////////////////////////////////////////////////////////
 
 //submarino
 //printf("numeros aleatorios para linha e coluna respectivamente: \n");
@@ -164,7 +164,7 @@ switch ( cru.pos ){
     break;
 }
 
-//////////////////////////////////////porta-aviões
+//////////////////////////////////////porta-aviÃµes
 j=0;
 
 //printf("[0]- horizontal, [1]- vertical \n");
@@ -228,13 +228,13 @@ if(linhatiro < 15 && linhatiro >=0 && colunatiro < 15 && colunatiro >=0 && m[lin
 
 			case 'S':
 				  contpont+=60;
-				  printf("você afundou um subamrino!!\n");
+				  printf("vocÃª afundou um subamrino!!\n");
 				  break;
 
 			case 'D':
 				  contpont+=10;
 				  des.tam--;
-				  printf("você acertou um destroyer!\n");
+				  printf("vocÃª acertou um destroyer!\n");
 				  if(des.tam==0) {
 				  printf("vc afundou o um destroyer!!\n");
 				  contpont+=40;
@@ -243,7 +243,7 @@ if(linhatiro < 15 && linhatiro >=0 && colunatiro < 15 && colunatiro >=0 && m[lin
 
 			case 'F':
 				  contpont+=10;
-				  fra.tam++;
+				  fra.tam--;
 				  printf("vc acertou um fragata!\n");
 				  if(fra.tam==0) {
 				  printf("vc afundou o um fragata!!\n");
@@ -253,7 +253,7 @@ if(linhatiro < 15 && linhatiro >=0 && colunatiro < 15 && colunatiro >=0 && m[lin
 
 			case 'C':
 				  contpont+=10;
-				  cru.tam++;
+				  cru.tam--;
 				  printf("vc acertou um cruzador!\n");
 				  if(cru.tam==0) {
 				  printf("vc afundou o um cruzador!!\n");
@@ -264,10 +264,10 @@ if(linhatiro < 15 && linhatiro >=0 && colunatiro < 15 && colunatiro >=0 && m[lin
 			case 'P':
 
 				  contpont+=10;
-				  poa.tam++;
-				  printf("vc acertou um porta-aviões!\n");
+				  poa.tam--;
+				  printf("vc acertou um porta-aviÃµes!\n");
 				  if(poa.tam==0) {
-				  printf("vc afundou o um porta-aviões!!\n");
+				  printf("vc afundou o um porta-aviÃµes!!\n");
 				  contpont+=10;
 				  }
 		}
@@ -275,7 +275,7 @@ if(linhatiro < 15 && linhatiro >=0 && colunatiro < 15 && colunatiro >=0 && m[lin
 
 else {
 a[linhatiro][colunatiro] ='O';
-printf("você errou!\n");
+printf("vocÃª errou!\n");
 }
 
 for(j=0; j<C-1; j++){ //imprimir a matriz
