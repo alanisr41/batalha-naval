@@ -228,7 +228,7 @@ if(linhatiro < 15 && linhatiro >=0 && colunatiro < 15 && colunatiro >=0 && m[lin
 
 			case 'S':
 				  contpont+=60;
-				  printf("você afundou um subamrino!!\n");
+				  printf("você afundou um submarino!!\n");
 				  break;
 
 			case 'D':
